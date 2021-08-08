@@ -10,7 +10,7 @@ using namespace std;
 
 bool login(string name, string password){
 
-	if ((find_user(name))&&(get_password(name)==password)){
+	if ((find_userid(name))&&(get_password(name)==password)){
 		return true;
 	}
 	
